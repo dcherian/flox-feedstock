@@ -21,12 +21,11 @@ requirements:
     - python >=3.7
     - setuptools_scm
   run:
-    - dask-core
     - importlib-metadata
+    - numpy
     - numpy_groupies
     - python >=3.7
     - toolz
-    - xarray
 
 test:
   imports:
