@@ -1,5 +1,5 @@
 {% set name = "flox" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ad71872a4b9076b3b92fed2a381440af26c275790b580fbdb68390fd3ee30ea1
+  sha256: 613adac549d73870d2b65dbeb856f6919ead1bdc4ec4e5767e6c3f48b72f39cd
 
 build:
   number: 0
