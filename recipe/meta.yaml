@@ -18,14 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools_scm
   run:
     - importlib-metadata
     - numpy
-    - numpy_groupies
+    - numpy_groupies >= 0.9.15
     - pandas
-    - python >=3.7
+    - python >=3.8
     - toolz
 
 test:
