@@ -1,5 +1,5 @@
 {% set name = "flox" %}
-{% set version = "0.4.1" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ad8416c75c57f379a143da3639a1325e15577ccf1387dab2ef4dd60419f0a58a
+  sha256: dc8644379adb67f7caa70ff46dd9f48bdd38b1fce8b261ba3ed6c52d409a9474
 
 build:
   number: 0
@@ -18,14 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools_scm
   run:
     - importlib-metadata
     - numpy
-    - numpy_groupies
+    - numpy_groupies >=0.9.15
     - pandas
-    - python >=3.7
+    - python >=3.8
     - toolz
 
 test:
