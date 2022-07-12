@@ -1,7 +1,7 @@
 About flox
 ==========
 
-Home: https://github.com/dcherian/flox
+Home: https://github.com/xarray-contrib/flox
 
 Package license: Apache-2.0
 
