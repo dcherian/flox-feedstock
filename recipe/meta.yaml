@@ -38,7 +38,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/dcherian/flox
+  home: https://github.com/xarray-contrib/flox
   summary: Fast & furious GroupBy operations for dask.array
   license: Apache-2.0
   license_file: LICENSE
