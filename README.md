@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flox-feedstock/
 
 Summary: Fast & furious GroupBy operations for dask.array
 
-Development: https://github.com/xarray-contrib/flox
+Development: https://github.com/dcherian/flox
 
 Documentation: https://flox.readthedocs.io/
 
